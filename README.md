@@ -4,7 +4,7 @@ This is a Technical Assessment for Bliss Application where it is developed a Loa
 ## FREQ-01: Loading Screen
 This requirement is to make a request to the /api/server-health endpoint using the fetch API. If the request is successful and the server health is OK, it hides the loading screen and shows the "List Screen". 
 If the request is not successful or the server health is NOT OK, it hides the loading screen and shows the "Retry Action" widget.
-------------------
+
 The <App> component displays a loading screen while it checks the server health using the API endpoint and it uses the useState and useEffect hooks to manage its state and perform side effects. 
 The useState hook was used to define two state variables: 
 1. serverHealth - which stores the health of the server;
